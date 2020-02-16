@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/dota/main/main",
+    "pages/dota/data/data",
+    "pages/dota/match/match",
+    "pages/dota/discover/discover",
+    "pages/dota/community/community",
+    "pages/dota/base/task/task",
+    "pages/dota/base/favorite/favorite",
+    "pages/dota/base/mall/mall",
+    "pages/dota/base/vipcenter/vipcenter",
+    "pages/dota/base/setting/setting",
+    "pages/dota/base/message/message",
+    "pages/dota/base/ucenter/ucenter"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0faeff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#ccc",
+    "selectedColor": "black",
+    "fontSize": "50px",
+    "height": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/dota/main/main",
+        "text": "dota我",
+        "iconPath": "static/img/max+/rb_me.png",
+        "selectedIconPath": "static/img/max+/rb_me_click.png"
+      },
+      {
+        "pagePath": "pages/dota/data/data",
+        "text": "数据",
+        "iconPath": "static/img/max+/rb_home.png",
+        "selectedIconPath": "static/img/max+/rb_home_click.png"
+      },
+      {
+        "pagePath": "pages/dota/match/match",
+        "text": "赛事",
+        "iconPath": "static/img/max+/ti5_off.png",
+        "selectedIconPath": "static/img/max+/ti5_on.png"
+      },
+      {
+        "pagePath": "pages/dota/discover/discover",
+        "text": "发现",
+        "iconPath": "static/img/max+/rb_discovery.png",
+        "selectedIconPath": "static/img/max+/rb_discovery_click.png"
+      },
+      {
+        "pagePath": "pages/dota/community/community",
+        "text": "社区",
+        "iconPath": "static/img/max+/rb_bbs.png",
+        "selectedIconPath": "static/img/max+/rb_bbs_click.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "max+",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {}
+}

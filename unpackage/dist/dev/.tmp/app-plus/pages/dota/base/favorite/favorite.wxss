@@ -1,0 +1,965 @@
+page {
+  background: #e1e6eb;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: #e1e6eb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .nav {
+  width: 90%;
+  height: 50rpx;
+  background: #CCCCCC;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-radius: 8rpx;
+  margin-top: 20rpx;
+  border: 1rpx solid #000000;
+}
+.container .nav .item {
+  width: 20%;
+  height: 50rpx;
+  box-sizing: content-box;
+  font-size: 25rpx;
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .nav .item:nth-child(n+1) {
+  border-right: 1rpx solid #000000;
+}
+.container .nav .item:last-child {
+  border-right: 0rpx solid #000000;
+}
+.container .nav .active {
+  background: #000000;
+  color: #FFFFFF;
+}
+.container .content {
+  width: 100%;
+  height: 100%;
+  background: #e1e6eb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 0rpx;
+}
+.container .content .list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .list .list_item {
+  width: 100%;
+  height: 140rpx;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .list .list_item:nth-child(n+2) {
+  margin-top: 20rpx;
+}
+.container .content .list .list_item .list_item_left {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .list .list_item .list_item_left image {
+  width: 250rpx;
+  height: 140rpx;
+  will-change: transform;
+  border: 0rpx;
+}
+.container .content .list .list_item .list_item_right {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 25rpx;
+  color: #C0C0C0;
+}
+.container .content .list .list_item .list_item_right .list_item_right_top {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.container .content .list .list_item .list_item_right .list_item_right_top text {
+  padding: 15rpx 10rpx;
+  color: #000000;
+  font-weight: 550;
+  font-size: 23rpx;
+}
+.container .content .list .list_item .list_item_right .list_item_right_top image {
+  width: 35rpx;
+  height: 35rpx;
+  will-change: transform;
+}
+.container .content .list .list_item .list_item_right .list_item_right_bottom {
+  width: 100%;
+  height: 50%;
+  padding: 15rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.container .content .list .list_item .list_item_right .list_item_right_bottom .date,
+.container .content .list .list_item .list_item_right .list_item_right_bottom .looks {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .list .list_item .list_item_right .list_item_right_bottom .date image,
+.container .content .list .list_item .list_item_right .list_item_right_bottom .looks image {
+  width: 20rpx;
+  height: 20rpx;
+  will-change: transform;
+}
+.container .content .list .list_item .list_item_right .list_item_right_bottom .date text,
+.container .content .list .list_item .list_item_right .list_item_right_bottom .looks text {
+  margin-left: 10rpx;
+  font-size: 20rpx;
+}
+.container .content .list .list_item .list_item_right .list_item_right_bottom .date {
+  margin-left: 20rpx;
+}
+.container .content .list .list_item .list_item_right .list_item_right_bottom .looks {
+  margin-right: 20rpx;
+}
+.container .content .list .list_item .list_item_right .list_item_right_bottom .looks image {
+  width: 25rpx;
+  height: 15rpx;
+  will-change: transform;
+}
+.container .content .post_list {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 20rpx;
+}
+.container .content .post_list .post_list_item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  border-top: 1rpx solid #ccc;
+  padding: 20rpx 0rpx;
+  background: #FFFFFF;
+}
+.container .content .post_list .post_list_item .user_avatar {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .post_list .post_list_item .user_avatar image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 70rpx;
+  border: 1rpx solid #CCCCCC;
+  will-change: transform;
+}
+.container .content .post_list .post_list_item .item_info {
+  -webkit-box-flex: 6;
+  -webkit-flex: 6;
+          flex: 6;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user .user {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user .user text {
+  width: 20%;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user .user text:nth-child(1) {
+  width: 40%;
+  height: 100%;
+  border: 0rpx solid #3F536E;
+  border-radius: 10rpx;
+  font-size: 25rpx;
+  color: #3F536E;
+  text-align: center;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user .user text:nth-child(2) {
+  width: 40%;
+  height: 100%;
+  border: 0rpx solid #3F536E;
+  border-radius: 10rpx;
+  background: #ffc107;
+  font-size: 22rpx;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: 10rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user .user image {
+  width: 50rpx;
+  height: 40rpx;
+  will-change: transform;
+  margin-left: 10rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user .close {
+  width: auto;
+  text-align: right;
+  padding-right: 20rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_user .close image {
+  width: 40rpx;
+  height: 30rpx;
+  will-change: transform;
+}
+.container .content .post_list .post_list_item .item_info .item_info_content {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+          align-items: left;
+}
+.container .content .post_list .post_list_item .item_info .item_info_content .title {
+  margin: 5rpx 5rpx;
+  font-size: 30rpx;
+  color: black;
+}
+.container .content .post_list .post_list_item .item_info .item_info_content .info {
+  margin: 5rpx;
+  font-size: 25rpx;
+  color: #ccc;
+}
+.container .content .post_list .post_list_item .item_info .item_info_content .pic {
+  margin: 5rpx 0rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_content .pic image {
+  width: 400rpx;
+  height: 350rpx;
+  will-change: transform;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 10rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 20rpx;
+  color: #CCCCCC;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_left .max {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_left .max image {
+  width: 30rpx;
+  height: 30rpx;
+  will-change: transform;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_left .max text {
+  margin-left: 10rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_left .max_name {
+  margin-left: 10rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_right {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 25rpx;
+  color: #C0C0C0;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_right image {
+  width: 30rpx;
+  height: 30rpx;
+  will-change: transform;
+  margin-right: 5rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_right text {
+  width: 30rpx;
+  height: 30rpx;
+  line-height: 25rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_right .thumbs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_right .thumbs text {
+  line-height: 35rpx;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_right .comment {
+  margin-left: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .post_list .post_list_item .item_info .item_info_footer .footer_right .comment text {
+  line-height: 25rpx;
+}
+.container .content .anchor_list {
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: auto;
+}
+.container .content .anchor_list .empty {
+  background: #FFFFFF;
+  position: absolute;
+  left: 0;
+  top: 90rpx;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .anchor_list .empty image {
+  width: 100rpx;
+  height: 100rpx;
+  will-change: transform;
+  margin-top: -30%;
+}
+.container .content .anchor_list .empty text {
+  font-size: 25rpx;
+  color: #8c96a0;
+  margin-top: 20rpx;
+}
+.container .content .author_list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .author_list .author_list_item {
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .author_list .author_list_item:nth-child(n+2) {
+  margin-top: 20rpx;
+}
+.container .content .author_list .author_list_item .author_list_item_left {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .author_list .author_list_item .author_list_item_left .pic {
+  width: 250rpx;
+  height: 140rpx;
+  overflow: hidden;
+}
+.container .content .author_list .author_list_item .author_list_item_left .pic image {
+  width: 250rpx;
+  height: 140rpx;
+  will-change: transform;
+  border: 0rpx;
+  -webkit-filter: blur(5rpx);
+          filter: blur(5rpx);
+}
+.container .content .author_list .author_list_item .author_list_item_left .pic_content {
+  position: absolute;
+  z-index: 99;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .author_list .author_list_item .author_list_item_left .pic_content image {
+  width: 65rpx;
+  height: 65rpx;
+  will-change: transform;
+  border-radius: 65rpx;
+}
+.container .content .author_list .author_list_item .author_list_item_left .pic_content text {
+  font-size: 22rpx;
+  color: #FFFFFF;
+  margin-top: 10rpx;
+}
+.container .content .author_list .author_list_item .author_list_item_right {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 25rpx;
+  color: #C0C0C0;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_top {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_top text {
+  padding: 10rpx 0rpx 0rpx 10rpx;
+  color: #000000;
+  font-weight: 550;
+  font-size: 23rpx;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_top image {
+  width: 35rpx;
+  height: 35rpx;
+  will-change: transform;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom {
+  width: 100%;
+  height: 50%;
+  padding: 15rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .date,
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .looks {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .date image,
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .looks image {
+  width: 20rpx;
+  height: 20rpx;
+  will-change: transform;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .date text,
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .looks text {
+  margin-left: 10rpx;
+  font-size: 20rpx;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .date {
+  margin-left: 20rpx;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .looks {
+  margin-right: 20rpx;
+}
+.container .content .author_list .author_list_item .author_list_item_right .author_list_item_right_bottom .looks image {
+  width: 25rpx;
+  height: 15rpx;
+  will-change: transform;
+}
+.container .content .match_list {
+  width: 100%;
+  height: 100%;
+}
+.container .content .match_list .mine_match,
+.container .content .match_list .professional_match,
+.container .content .match_list .other_match {
+  width: 100%;
+  height: auto;
+  font-size: 25rpx;
+  color: #8c96a0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.container .content .match_list .mine_match:nth-child(n+2),
+.container .content .match_list .professional_match:nth-child(n+2),
+.container .content .match_list .other_match:nth-child(n+2) {
+  border-top: 1rpx solid #CCCCCC;
+}
+.container .content .match_list .match_type {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #f0f2f5;
+}
+.container .content .match_list .match_type image {
+  width: 20rpx;
+  height: 20rpx;
+  will-change: transform;
+  margin-left: 20rpx;
+}
+.container .content .match_list .match_type text {
+  font-size: 30rpx;
+  font-weight: 520;
+  color: #28323c;
+  margin-left: 5px;
+}
+.container .content .match_list .match_list_item {
+  width: 100%;
+  height: 50rpx;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 20rpx 0rpx;
+}
+.container .content .match_list .match_list_item .match_list_item_left {
+  height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .match_list .match_list_item .match_list_item_left image {
+  width: 50rpx;
+  height: 50rpx;
+  will-change: transform;
+}
+.container .content .match_list .match_list_item .match_list_item_middle {
+  height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .match_list .match_list_item .match_list_item_right {
+  height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .content .match_list .match_list_item .match_list_item_right image {
+  width: 50rpx;
+  height: 50rpx;
+  will-change: transform;
+}
+

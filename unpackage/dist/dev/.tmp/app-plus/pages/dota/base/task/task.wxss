@@ -1,0 +1,562 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .header {
+  width: 100%;
+  height: 40%;
+  background: #14191e;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 20rpx 0rpx;
+  font-size: 25rpx;
+  color: #FFFFFF;
+}
+.container .header .avatar {
+  width: 20%;
+}
+.container .header .avatar image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 20rpx;
+  will-change: transform;
+}
+.container .header .user_level {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.container .header .user_level .username {
+  font-size: 25rpx;
+  font-weight: 550;
+}
+.container .header .user_level .level_info {
+  width: 100%;
+  margin-top: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 23rpx;
+}
+.container .header .user_level .level_info .level {
+  color: #647b93;
+}
+.container .header .user_level .level_info .progress {
+  width: 75%;
+  height: 5rpx;
+  background: #CCCCCC;
+  border-radius: 10rpx;
+}
+.container .header .user_level .level_info .task_rate {
+  margin-right: 10rpx;
+}
+.container .body {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .user_info {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .user_info .user_wallet {
+  width: 100%;
+  height: 100%;
+  padding: 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: orange;
+  font-size: 25rpx;
+  color: #FFFFFF;
+}
+.container .body .user_info .user_wallet .wallet_left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .user_info .user_wallet .wallet_left text {
+  margin-left: 20rpx;
+  font-size: 20rpx;
+}
+.container .body .user_info .user_wallet .wallet_left text text {
+  font-size: 25rpx;
+  font-weight: 550;
+}
+.container .body .user_info .user_wallet .wallet_left image {
+  width: 30rpx;
+  height: 30rpx;
+  will-change: transform;
+}
+.container .body .user_info .user_wallet .wallet_right {
+  padding: 10rpx 20rpx;
+  margin-right: 20rpx;
+  background: #FFFFFF;
+  color: orange;
+  border-radius: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 23rpx;
+}
+.container .body .user_info .user_wallet .wallet_right image {
+  width: 20rpx;
+  height: 20rpx;
+  will-change: transform;
+}
+.container .body .user_info .user_wallet .wallet_right text:nth-child(2) {
+  margin: 0rpx 10rpx;
+}
+.container .body .user_info .user_wallet .wallet_right .right_arrow {
+  font-size: 20rpx;
+}
+.container .body .user_info .user_progress {
+  width: 100%;
+  height: 100%;
+  margin: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .user_info .user_progress .user_progress_notice {
+  font-size: 25rpx;
+  color: #CCCCCC;
+  margin-top: 20rpx;
+}
+.container .body .user_info .user_progress .user_progress_content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 22rpx;
+  margin-top: -10rpx;
+}
+.container .body .user_info .user_progress .user_progress_content .progress_top {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  text-align: right;
+  color: #CCCCCC;
+  font-size: 22rpx;
+}
+.container .body .user_info .user_progress .user_progress_content .progress_top image {
+  margin-right: 20rpx;
+}
+.container .body .user_info .user_progress .user_progress_content .progress_middle {
+  width: 100%;
+  height: 100%;
+  background: #CCCCCC;
+}
+.container .body .user_info .user_progress .user_progress_content .progress_middle .jindu {
+  width: 20%;
+  height: 20rpx;
+  background: orange;
+}
+.container .body .user_info .user_progress .user_progress_content .progress_bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  text-align: right;
+  text-align: left;
+  color: orange;
+  font-size: 22rpx;
+  font-weight: 550;
+}
+.container .body .user_info .user_progress .user_progress_content .progress_bottom text {
+  margin-left: 30rpx;
+}
+.container .body .user_info .user_progress image {
+  width: 25rpx;
+  height: 25rpx;
+  will-change: transform;
+}
+.container .body .task {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .task .task_content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .task .task_content .task_title {
+  width: 100%;
+  height: 70rpx;
+  background: #e1e6eb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 23rpx;
+  color: #000000;
+}
+.container .body .task .task_content .task_title image {
+  margin-left: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+  will-change: transform;
+}
+.container .body .task .task_content .task_list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 30rpx;
+}
+.container .body .task .task_content .task_list:nth-child(n+3) .task_item {
+  border-top: 1rpx solid #f0f2f5;
+}
+.container .body .task .task_content .task_list .task_item {
+  width: 90%;
+  height: 146rpx;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0rpx 15rpx;
+}
+.container .body .task .task_content .task_list .task_item .item_left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .task .task_content .task_list .task_item .item_left .item_icon {
+  width: auto;
+  height: 100%;
+}
+.container .body .task .task_content .task_list .task_item .item_left .item_icon image {
+  width: 50rpx;
+  height: 50rpx;
+  will-change: transform;
+}
+.container .body .task .task_content .task_list .task_item .item_left .item_content {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  padding-left: 20rpx;
+}
+.container .body .task .task_content .task_list .task_item .item_left .item_content text {
+  font-size: 23rpx;
+}
+.container .body .task .task_content .task_list .task_item .item_left .item_content text .notice {
+  color: #BCBCBC;
+}
+.container .body .task .task_content .task_list .task_item .item_left .item_content text:nth-child(2) {
+  margin-top: 15rpx;
+  color: orange;
+}
+.container .body .task .task_content .task_list .task_item .item_right button {
+  font-size: 25rpx;
+  color: orange;
+  background: #FFFFFF;
+}
+.container .body .task .task_content .task_list .task_item .item_right button::after {
+  border: 4rpx solid orange;
+}
+.container .body .task .supplementary_sign .task_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #FFFFFF;
+  padding-left: 0rpx;
+  background: -webkit-linear-gradient(left, #ff9927, #ffc627);
+  background: linear-gradient(to right, #ff9927, #ffc627);
+}
+.container .body .task .supplementary_sign .task_title text {
+  font-size: 25rpx;
+}
+.container .body .task .supplementary_sign .task_title image {
+  margin-left: 10rpx;
+  width: 20rpx;
+  height: 10rpx;
+  will-change: transform;
+}
+.container .body .sign_in .item_right {
+  width: 180rpx;
+  height: 120rpx;
+  color: #8c96a0;
+  background: #f0f2f5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-radius: 10rpx;
+}
+.container .body .sign_in .item_right text {
+  font-size: 28rpx;
+}
+.container .body .sign_in .item_right text:nth-child(2) {
+  font-size: 40rpx;
+  margin-top: 10rpx;
+}
+.container .body .footer {
+  width: 100%;
+  height: 150rpx;
+  line-height: 150rpx;
+  background: #e1e6eb;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .body .footer .task_rule,
+.container .body .footer .experience_rul {
+  color: #8c96a0;
+  font-size: 25rpx;
+}
+.container .body .footer .line {
+  width: 2rpx;
+  height: 20rpx;
+  background: #8c96a0;
+  margin: 0 10rpx;
+}
+

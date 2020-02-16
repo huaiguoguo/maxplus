@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/base/main/main",
+			"style": {
+				"navigationBarTitleText": "测试导航栏"
+				// "navigationStyle": "custom",
+				// "app-plus": {
+				// 	"titleNView": true
+				// }
+			}
+		},
+		{
+			"path": "pages/base/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/base/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/base/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/base/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/dota/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		},
+		{
+			"path": "pages/dota/data/data",
+			"style": {
+				"navigationBarTitleText": "数据"
+			}
+		},
+		{
+			"path": "pages/dota/match/match",
+			"style": {
+				"navigationBarTitleText": "赛事"
+			}
+		},
+		{
+			"path": "pages/dota/discover/discover",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		},
+		{
+			"path": "pages/dota/community/community",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		}
+
+		, {
+			"path": "pages/test/test",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/main/main",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+
+		// "borderStyle": "black",
+		// "backgroundColor": "#333",
+		// "color": "#8F8F94",
+		// "selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/main/main",
+				"text": "我",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/homeHL.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}

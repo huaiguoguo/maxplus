@@ -1,0 +1,332 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/dota/main/main",
+			"style": {
+				"navigationBarTitleText": "Max+",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"navigationStyle": "default", //default custom
+				"enablePullDownRefresh":true,
+				"app-plus": {
+					// "titleNView": {
+					// 	"buttons": [{
+					// 			"text": "\ue670",
+					// 			"fontSrc": "/static/iconfont.ttf",
+					// 			"fontSize": "22px",
+					// 			"float": "left"
+					// 		},
+					// 		{
+					// 			"text": "\ue62c",
+					// 			"fontSrc": "/static/iconfont.ttf",
+					// 			"fontSize": "22px"
+
+					// 		}
+					// 	]
+					// }
+				}
+			}
+		},
+		{
+			"path": "pages/dota/data/data",
+			"style": {
+				"navigationBarTitleText": "数据",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+		},
+		{
+			"path": "pages/dota/match/match",
+			"style": {
+				"navigationBarTitleText": "赛事",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+		},
+		{
+			"path": "pages/dota/discover/discover",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+		},
+		{
+			"path": "pages/dota/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+		}
+	    ,{
+            "path" : "pages/dota/base/task/task",
+			"style": {
+				"navigationBarTitleText": "我的任务",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/favorite/favorite",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/mall/mall",
+			"style": {
+				"navigationBarTitleText": "M币商城",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/vipcenter/vipcenter",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/message/message",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/ucenter/ucenter",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/message/follow/follow",
+			"style": {
+				"navigationBarTitleText": "我的关注/粉丝",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false,
+				"app-plus" : {  
+				            "titleNView" : {  
+				                "buttons" : [  
+				                    {  
+				                        "text" : "北京市", 
+				                        "fontSize" : "14",
+				                        "select" : true,
+				                        "width" : "auto"
+				                    }  
+				                ]  
+				            }  
+				        }
+			}
+        }
+        ,{
+            "path" : "pages/dota/base/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/news/news",
+			"style": {
+				"navigationBarTitleText": "Max+新闻",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/HeroicObjects/HeroicObjects",
+			"style": {
+				"navigationBarTitleText": "英雄物品",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/herolist/herolist",
+			"style": {
+				"navigationBarTitleText": "英雄榜",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/officiallist/officiallist",
+			"style": {
+				"navigationBarTitleText": "官方榜单",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/professionalteam/professionalteam",
+			"style": {
+				"navigationBarTitleText": "职业战队",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/famousplayer/famousplayer",
+			"style": {
+				"navigationBarTitleText": "知名玩家",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/datatopics/datatopics",
+			"style": {
+				"navigationBarTitleText": "我的专题",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/livedata/livedata",
+			"style": {
+				"navigationBarTitleText": "数据直播",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/data/highladder/highladder",
+			"style": {
+				"navigationBarTitleText": "天梯",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/discover/thematiclist/thematiclist",
+			"style": {
+				"navigationBarTitleText": "全部专题",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/discover/author/author",
+			"style": {
+				"navigationBarTitleText": "作者列表",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/discover/author/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/discover/author/apply_author/apply_author",
+			"style": {
+				"navigationBarTitleText": "成为作者",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/discover/thematiclist/thematicdetail/thematicdetail",
+			"style": {
+				"navigationBarTitleText": "专题详情",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/discover/test/test",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/dota/match/rank/rank",
+			"style": {
+				"navigationBarTitleText": "M币排行",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/match/myjingcai/myjingcai",
+			"style": {
+				"navigationBarTitleText": "我的竞猜",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+        ,{
+            "path" : "pages/dota/match/myjingcai/jingcaisetting/jingcaisetting",
+			"style": {
+				"navigationBarTitleText": "竞猜设置",
+				"navigationBarBackgroundColor":"rgb(20, 25, 30)",
+				"enablePullDownRefresh":false
+			}
+        }
+    ],
+	"tabBar": {
+		"borderStyle": "black",
+		// "backgroundColor": "#333",
+		"color": "#ccc",
+		"selectedColor": "black",
+		"fontSize": "50px",
+		"height": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+				"pagePath": "pages/dota/main/main",
+				"text": "dota我",
+				"iconPath": "static/img/max+/rb_me.png",
+				"selectedIconPath": "static/img/max+/rb_me_click.png"
+			},
+			{
+				"pagePath": "pages/dota/data/data",
+				"text": "数据",
+				"iconPath": "static/img/max+/rb_home.png",
+				"selectedIconPath": "static/img/max+/rb_home_click.png"
+			},
+			{
+				"pagePath": "pages/dota/match/match",
+				"text": "赛事",
+				"iconPath": "static/img/max+/ti5_off.png",
+				"selectedIconPath": "static/img/max+/ti5_on.png"
+			},
+			{
+				"pagePath": "pages/dota/discover/discover",
+				"text": "发现",
+				"iconPath": "static/img/max+/rb_discovery.png",
+				"selectedIconPath": "static/img/max+/rb_discovery_click.png"
+			},
+			{
+				"pagePath": "pages/dota/community/community",
+				"text": "社区",
+				"iconPath": "static/img/max+/rb_bbs.png",
+				"selectedIconPath": "static/img/max+/rb_bbs_click.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}

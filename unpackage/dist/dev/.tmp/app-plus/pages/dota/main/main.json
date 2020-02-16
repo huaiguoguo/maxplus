@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "Max+",
+  "navigationBarBackgroundColor": "rgb(20, 25, 30)",
+  "navigationStyle": "default",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "drawer": "/components/custom/drawer"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tui-drawer": "/components/ThorUI/drawer/drawer",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}
